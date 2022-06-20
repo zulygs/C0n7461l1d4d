@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(107, 182, 249, 0.6); 
+}
+header {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    background: #69F30D;
+    margin-bottom: 20px; 
+    background-image: url(../LogoSascimPng.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: left;
+}
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; 
+    font-size: 18px;
+}
+.centrar {
+    color: blue;
+    font-size: 45px;
+    margin: auto;
+    text-align: center;
+}
+.hear {
+    font-size: 17px;
+    text-align: center;
+    color: blue;
+}
+.hear2 {
+    font-size: 18px;
+    text-align: right;
+    color: blue;
+}
+header .colores {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+    color:#f2f2f2;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.fijo {
+    position: fixed;
+    background-color: darkgrey;
+}
+.header2 {
+    position: fixed;
+    height: 125px; 
+    background-size: 10%;
+}
+.header2 .colores {
+    width: 90%;
+    line-height: 17px;
+    font-size: 15px;
+}
+.header2 .centrar {
+    font-size: 30px;
+    line-height: 32px;
+}
+.contenido {
+    padding-top: 50px;
+}
+.contenido p {
+    margin-bottom: 1em;
+}
+@media sreem and (max-width: 950px) {
+    header .centar,
+    header .color {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+    .header2 {
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav {
+        line-height: 50px;
+    }
+}
